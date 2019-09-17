@@ -23,7 +23,7 @@ header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-h1 {
+.headline {
     background-color: #4aaaa5;
     padding: 20px;
     color: #fff;
@@ -60,14 +60,13 @@ a {
     border-right-style: inset;
 }
 
-
 /* content css */
 
 .portfolio-image {
     float: left;
     padding-right: 24px;
     height: 200px;
-    width: 200px;
+    width: 170px;
 }
 
 .section-content {
@@ -134,7 +133,7 @@ button {
 .image-label {
     background-color: #4aaaa5;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     bottom: 20px;
     position: absolute;
