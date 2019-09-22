@@ -28,6 +28,7 @@ header {
     padding: 20px;
     color: #fff;
     margin: 0;
+    -webkit-box-shadow: 1px 1px 2px #666666;
 }
 
 h2 {
@@ -49,6 +50,11 @@ a {
     color: #777777;
     padding: 10px;
     margin: auto;
+}
+
+a:hover,a:active{
+    background-color:#eee;
+
 }
 
 .border-bottom {
@@ -101,13 +107,21 @@ textarea {
     height: 100px;
 }
 
-button {
+button:hover {
+    background-color:lightgrey;
+    color:black;
+    cursor: pointer;
+}
+
+button{
     background-color: #4aaaa5;
+    -webkit-border-radius: 28; 
+    -webkit-box-shadow: 2px 2px 5px #666666;
     color: white;
     padding: 8px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+
 }
 
 /* photo css*/
