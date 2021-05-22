@@ -2064,6 +2064,7 @@ input, select, textarea {
 		border-radius: 0.5em;
 		text-decoration: none;
 		padding: 1em 3em 1em 3em;
+		margin:1em;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
